@@ -7,14 +7,14 @@ def run():
     #         continue
     #     print(contador)
 
-    """ print until 5 """
+    """ exit the loop until 5 """
     # for i in range(10):
     #     print(i)
     #     if i == 5:
     #         break
     #    break
     
-    """ print until 'i' """
+    """ exit the loop until char 'i' """
     texto = str(input('Escribe un texto: '))
     for letra in texto:
         if letra == 'i':
