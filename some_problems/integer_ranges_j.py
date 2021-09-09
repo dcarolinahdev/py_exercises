@@ -20,6 +20,6 @@ def version_dos():
 			print("El número %s se encuentra entre [11-15]" % x)
 	return None
 
-print ("Pregunta 2. Escriba un número entre 1 y 16, la función original está comentada, se ejecuta la función corregida")
+print ("Escriba un número entre 1 y 16, la función original está comentada, se ejecuta la función corregida")
 print ("Respuesta: ")
 version_dos()
