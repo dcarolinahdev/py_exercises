@@ -35,6 +35,11 @@
 - The advantage of tuples over lists is that going through a for loop is much faster with tuples.
 
 `lista = [1, 2, 3, 4, 5]`
-` `
+
 `tupla = (1, 2, 3, 4, 5)`
 
+## Read in web
+
+- Official documentation [here](https://docs.python.org/3/)
+
+- Style guide [here](https://peps.python.org/pep-0008/)
