@@ -9,7 +9,7 @@ f = int(input("Dígame el número de filas de la matriz: "))
 
 c = int(input("Dígame el número de columnas de la matriz: "))
 
-k = int(input("Dígame el valor máximo an generar en la matriz: "))
+k = int(input("Dígame el valor máximo a generar en la matriz: "))
 
 print ()
 print ("La siguiente matriz ha sido creada: ")
