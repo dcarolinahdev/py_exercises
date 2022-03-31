@@ -38,6 +38,18 @@
 
 `tupla = (1, 2, 3, 4, 5)`
 
+- Read tracebacks from final to start.
+
+- You can debugging without VS Code with python<3.7 you can use:
+
+`import pdb`
+
+`pdb.set_trace()`
+
+- You can debugging without VS Code with python>=3.7 you can use:
+
+`breakpoint()`
+
 ## Read in web
 
 - Official documentation [here](https://docs.python.org/3/)
