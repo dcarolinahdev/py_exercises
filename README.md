@@ -50,6 +50,14 @@
 
 `breakpoint()`
 
+- How you can open a file?
+
+`R -> reading`
+
+`W -> writing - overwrite`
+
+`A -> writing - append`
+
 ## Read in web
 
 - Official documentation [here](https://docs.python.org/3/)
