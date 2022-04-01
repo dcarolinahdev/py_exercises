@@ -1,14 +1,21 @@
 # Lambda form
 # palindrome = lambda param: param == param[::-1]
 
+# Second try-except block code
 def palindrome(param):
-	return param == param[::-1]
+	try:
+		if len(param) == 0:
+			raise ValueError("You can't type an empty string")
+		return param == param[::-1]
+	except ValueError as ve:
+		print(ve)
+		return False
 
 print(palindrome('ana'))
 print(palindrome('tucson'))
 
 # First try-except block code
-try:
-	print(palindrome(1))
-except TypeError:
-	print("You only can type strings")
+# try:
+# 	print(palindrome(''))
+# except TypeError:
+# 	print("You only can type strings")
