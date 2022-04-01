@@ -5,7 +5,7 @@ def divisors(num):
 		divisors = [i for i in range(1, num + 1) if num % i == 0]
 	except ValueError as ve:
 		print(ve)
-		return False
+	return divisors
 
 def run():
 	try:
