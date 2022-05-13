@@ -30,6 +30,12 @@
 18. If the implementation is easy to explain, it may be a good idea.
 19. Namespaces are one honking great idea -- let's do more of those!
 
+## Virtualenvs
+
+Using venv module:
+
+    python3 -m venv venv
+
 ## Learned
 
 - The advantage of tuples over lists is that going through a for loop is much faster with tuples.
