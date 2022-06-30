@@ -3,10 +3,12 @@
 ## Why?
 
 - Strengthen good practices.
-
 - Easy to learn.
-
 - Elegant (defined structure).
+- Readable: intuitive and strict syntax.
+- Productive: saves a lot of code.
+- Portable: for all operating systems.
+- Reloaded: it comes with many libraries by default.
 
 ## Zen
 
@@ -64,8 +66,18 @@ Using venv module:
 
 `A -> writing - append`
 
-## Read in web
+---
+---
+# My notes taken from courses
 
-- Official documentation [here](https://docs.python.org/3/)
+- [POO in pythhon](https://github.com/dcarolinahdev/notes/blob/master/py_computational_thinking.md)
+- [Computational thinking](py_computational_thinking.md)
 
-- Style guide [here](https://peps.python.org/pep-0008/)
+---
+---
+
+# Read about python in web
+
+- [Official documentation](https://docs.python.org/3/) includes the python standard library, the python language reference... and more!
+
+- [Style guide](https://peps.python.org/pep-0008/) gives coding conventions for the Python code.
