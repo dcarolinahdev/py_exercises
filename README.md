@@ -70,8 +70,7 @@ Using venv module:
 ---
 # My notes taken from courses
 
-- [POO in pythhon](https://github.com/dcarolinahdev/notes/blob/master/py_computational_thinking.md)
-- [Computational thinking](py_computational_thinking.md)
+- [Python](https://github.com/dcarolinahdev/notes/blob/master/python.md)
 
 ---
 ---
