@@ -40,23 +40,27 @@ Using venv module:
 
 ## Learned
 
+### Data types
+
+- Integers, booleans, strings, lists, dictionaries and tuples.
+
+- Remember that in Python everything is an object.
+
 - The advantage of tuples over lists is that going through a for loop is much faster with tuples.
 
 `lista = [1, 2, 3, 4, 5]`
 
 `tupla = (1, 2, 3, 4, 5)`
 
+### Comments
+
+- A single hashtag for inline comment or block code between triple quote.
+
+### Another
+
+- Variables (unlike other programming languages) you should not define them, nor their data type, since at the time of iterating them their type will be identified.
+
 - Read tracebacks from final to start.
-
-- You can debugging without VS Code with python<3.7 you can use:
-
-`import pdb`
-
-`pdb.set_trace()`
-
-- You can debugging without VS Code with python>=3.7 you can use:
-
-`breakpoint()`
 
 - How you can open a file?
 
@@ -66,8 +70,25 @@ Using venv module:
 
 `A -> writing - append`
 
+- How to print functions for an object?
+
+`dir([5, 2, 1])`
+
+- How to generate a range in a list?
+
+`list(range(5))`
+
+- How to add elements in a list?
+
+`sum([1, 2, 4])`
+
+- Print information about a function or library
+
+`help(sorted)`
+
 ---
 ---
+
 # My notes taken from courses
 
 - [Python](https://github.com/dcarolinahdev/notes/blob/master/python.md)
@@ -79,4 +100,18 @@ Using venv module:
 
 - [Official documentation](https://docs.python.org/3/) includes the python standard library, the python language reference... and more!
 
-- [Style guide](https://peps.python.org/pep-0008/) gives coding conventions for the Python code.
+- [w3schools](https://www.w3schools.com/python/)
+
+- [programiz](https://www.programiz.com/python-programming/)
+
+- [geeksforgeeks](https://www.geeksforgeeks.org/python-programming-language/?ref=shm)
+
+- [Style guide PEP8](https://peps.python.org/pep-0008/) gives coding conventions for the Python code.
+
+- [Style guide PEP8 - source #2](https://pep8.org/)
+
+- [Common mistakes](https://miescapedigital.com/10-errores-cometen-los-desarrolladores-python/)
+
+i.e. **is** is used to compare values, **==** is used to compare objects.
+
+- [Code style](https://docs.python-guide.org/writing/style/)
