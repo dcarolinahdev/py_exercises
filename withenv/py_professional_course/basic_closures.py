@@ -17,6 +17,20 @@ print(times4(5))
 print(times10(times4(2)))
 """
 
+def make_division_by(n):
+    def division(x):
+        assert n != 0, "El valor ingresado en el divisor debe ser diferente a cero"
+        return x/n
+    return division
+
+division_by_3 = make_division_by(3)
+division_by_5 = make_division_by(5)
+division_by_18 = make_division_by(18)
+
+print(division_by_3(18))
+print(division_by_5(100))
+print(division_by_18(54))
+
 def make_repeater_of(n):
     def repeater(string):
         assert type(string) == str, "You only can use strimgs"
