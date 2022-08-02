@@ -1,10 +1,12 @@
 import time
 
-def fibo_gen():
+def fibo_gen(max=None):
     n1 = 0
     n2 = 1
     counter = 0
-    while True:
+    nmax = max
+    while not max or (counter <= (nmax - 1)):
+        # print("i="+str(counter+1))
         if counter == 0:
             counter += 1
             yield n1
@@ -18,7 +20,8 @@ def fibo_gen():
             yield aux
 
 if __name__ == '__main__':
-    fibonacci = fibo_gen()
+    # fibonacci = fibo_gen()
+    fibonacci = fibo_gen(8)
     for elem in fibonacci:
         print(elem)
         time.sleep(0.05)
