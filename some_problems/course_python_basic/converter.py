@@ -36,8 +36,8 @@ if opcion_o in [1, 2, 3]:
     """
     opcion_d = int(input(menu_2))
     if opcion_d in [1, 2, 3]:
-    	conversor(opcion_o-1, opcion_d-1)
+        conversor(opcion_o-1, opcion_d-1)
     else:
-    	print('[destino] Ingresa una opción correcta por favor')
+        print('[destino] Ingresa una opción correcta por favor')
 else:
     print('[origen] Ingresa una opción correcta por favor')
